@@ -1,0 +1,47 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none
+}
+
+
+.main {
+  min-height: 100vh;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.counter {
+  width: min(90%, 1042px);
+
+  padding: 20px 15px;
+
+
+  border: 1px inset gray;
+  border-radius: 7px;
+}
+
+.counter__title {
+  margin-bottom: 18px;
+
+
+  font-size: 3rem;
+}
+
+.counter__textarea {
+  width: 100%;
+  min-height: 325px;
+
+  margin-bottom: 18px;
+}
+
+.counter__info {
+  font-size: 1.25rem;
+}
+
+.counter__info li:not(:last-child) {
+  margin-bottom: 5px;
+}
